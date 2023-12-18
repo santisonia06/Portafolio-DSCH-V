@@ -15,48 +15,42 @@
    </head>
    <body>
     <header>
-      <a href="#" class="logo">CAT LOVER</a>
+      <a href="#" class="logo">DSCH-V</a>
 		<nav>
 			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Nosotros</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#">Portafolio</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="#zona1">Inicio</a></li>
+				<li><a href="#zona2">Nosotros</a></li>
+				<li><a href="#zona3">Servicios</a></li>
+				<li><a href="#zona4">Portafolio</a></li>
+				<li><a href="#zona5">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
-	<section class="zona1"></section>
-	<section>
-		<h1 style="color: green">
-            GeeksforGeeks
-        </h1>
-            
-          <p>
-          Cambiar de idioma
-          </p>
-          
-    
-          <button onclick="changeLanguage('eng')"> Change to English</button>
-          <button onclick="changeLanguage('es')">Change to Spanish</button>
-          <button onclick="changeLanguage('hin')">Change to Hindi</button>
-          
-          <!-- Define the content of the page
-          that would be changed -->
-          <p id="siteContent">
-            Welcome to the GeeksforGeeks Portal! 
-            You can choose any language using the
-            buttons above!
-          </p>
+	<section class="zona1" id="zona1">
+        <section class="container">
+            <h3 class="container__typing">
+              Esta es la prueba de escribir.
+            </h3>
+          </section>
 	</section>
-
+    <section class="zona2" id="zona2">
+		
+    </section>
+    <section class="zona3" id="zona3">
+		
+    </section>
+    <section class="zona4" id="zona4">
+		
+    </section>
+    <section class="zona5" id="zona5">
+		
+    </section>
 	<script type="text/javascript">
 		window.addEventListener("scroll", function(){
 			var header = document.querySelector("header");
 			header.classList.toggle("abajo",window.scrollY>0);
 		})
 	</script>
-    
    <!--Script exteriores-->
    <script src="./js/index.js"></script>
    <!--Script exteriores-->   
