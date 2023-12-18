@@ -131,4 +131,35 @@ header.abajo .logo,
 header.abajo ul li a{
     color: #000;
 }
+.footer-p {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+     text-align: center;
 
+   } 
+   .icon-data-p {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+   }
+   .l-link-data {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    padding: 10px;
+   }
+   #data-link-la-li {
+   transition: 0.5s;
+   object-fit: cover;
+   padding: 5x;
+   }
+   #data-link-la-li:hover {
+   color: #fff;
+   }
+   #data-link-la-li {
+   font-size: 2em;
+   margin: 0% 1%;
+   }
