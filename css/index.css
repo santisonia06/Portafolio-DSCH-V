@@ -80,6 +80,7 @@ header ul li a{
     overflow: hidden;
     color: #fff;
     border-right: 3px solid;
+    font-size: 23px;
   }
   
   @keyframes animacion {
