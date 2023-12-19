@@ -163,3 +163,110 @@ header.abajo ul li a{
    font-size: 2em;
    margin: 0% 1%;
    }
+   #recargar {
+    display: none;
+    }
+  .loading {
+      position: fixed;
+      z-index: 9999;
+      transition: 1s all;
+      left: 45%;
+      top: 260px;
+      background-color: #0000003d;
+      border-radius: 5px;
+  }
+  .loading.show {
+      opacity: 1;
+  }
+  .loading .spin {
+     border: 3px solid hsl(0deg 0% 100% / 20%);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  animation: spin 1s linear infinite;
+      
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }  
+  .data-img-zona2 {
+    border: 1px solid #fff;
+    width: 400px;
+    height: 400px;
+    display: block;
+    right: 200px;
+   position: relative;
+  margin: auto;
+  top: 100px;
+  }
+  .data-zone2 {
+    position: relative;
+    display: block;
+    left: -70px;
+    top: -80px;
+  }
+  .data-zone2-title {
+    position: absolute;
+    left: 700px;
+    top: 100px;
+  }
+  .data-title-zone2-res {
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-text-stroke: 1px rgb(167, 157, 157);
+color: transparent;
+  }
+  .data-title-zone2-res2 {
+color: #767676;
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+outline: none;
+line-height: 1.4;
+  }
+  .data-title-prof-res3 {
+font-family: poppins;
+font-weight: 400;
+display: inline-block;
+padding-top: 20px;
+font-style: italic;
+color: #767676;
+  }
+.data-text-zone2 {
+width: 100%;
+float: left;
+margin-bottom: 23px;
+line-height: 1.4;
+}
+.data-text-parrafo-zone2 {
+color: #767676;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.lead-data-zone2 {
+text-decoration: none;
+background-color: #000;
+color: #fff;
+padding: 15px;
+font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.lead-data-zone2:hover {
+color: #000;
+padding: 15px;
+background-color: #fff;
+border: 1px solid #000000;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
+}
