@@ -127,6 +127,13 @@ header ul li a{
     height: 100vh;
     background-color: #080707;
 }
+.zona6{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #201a1a;
+  display: none;
+}
 header.abajo .logo,
 header.abajo ul li a{
     color: #000;

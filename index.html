@@ -20,6 +20,7 @@
 		<!--Font Awesome-->
    </head>
    <body>
+    <div class="main">
 <!--Refresh-->
 <div class="loading show" id="recargar">
   <div class="spin"></div>
@@ -32,11 +33,14 @@
 				<li><a href="#zona1">Inicio</a></li>
 				<li><a href="#zona2">Nosotros</a></li>
 				<li><a href="#zona3">Servicios</a></li>
-		    <li><a href="#zona4">Portafolio</a></li>
+		        <li><a href="#zona4">Portafolio</a></li>
 				<li><a href="#zona5">Contacto</a></li>
+       
 			</ul>
 		</nav>
 	</header>
+  
+   
 	<section class="zona1" id="zona1">
         <section class="container">
             <h3 class="container__typing">
@@ -74,6 +78,10 @@
     <section class="zona5" id="zona5">
 		
     </section>
+    <section class="zona6" id="zona6">
+		
+    </section>
+  </div>
      <!--COKIE-->
  <div id="cajacookies">
   <p class="text-cokie">
@@ -87,10 +95,18 @@
     <footer>
      <div class="footer-p">
        <div class="icon-data-p">
-        <a href="https://www.facebook.com/dariosantiagochaconv" target="_blank" class="l-link-data"><i class="fa fa-facebook" id="data-link-la-li"></i></a>
-        <a href="https://www.instagram.com/ds35524/" target="_blank" class="l-link-data"><i class="fa fa-instagram" id="data-link-la-li"></i></a>
-        <a href="http://www.youtube.com/@dsch-v" target="_blank" class="l-link-data"><i class="fa fa-youtube" id="data-link-la-li"></i></a>
-        <a href="https://twitter.com/VerganoSantiago" target="_blank" class="l-link-data"><i class="fa fa-twitter" id="data-link-la-li"></i></a>
+        <h3>CODIGO</h3>
+        <form id="passwordForm">
+        <input type="password" id="password" placeholder="Codigo..">
+        <button type="submit">Ok</button>
+        </form>
+       <p id="message"></p>
+        </div>
+       <div class="icon-data-p">
+        <a href="javascript:openD(('https://www.facebook.com/dariosantiagochaconv'))" class="l-link-data"><i class="fa fa-facebook" id="data-link-la-li"></i></a>
+        <a href="javascript:openD(('https://www.instagram.com/ds35524/'))" class="l-link-data"><i class="fa fa-instagram" id="data-link-la-li"></i></a>
+        <a href="javascript:openD(('http://www.youtube.com/@dsch-v'))"  class="l-link-data"><i class="fa fa-youtube" id="data-link-la-li"></i></a>
+        <a href="javascript:openD(('https://twitter.com/VerganoSantiago'))" class="l-link-data"><i class="fa fa-twitter" id="data-link-la-li"></i></a>
        </div>
        <div class="icon-data-p">
         <p>Copyright © 2023 DSCH-V - Todos los derechos reservados</p>
