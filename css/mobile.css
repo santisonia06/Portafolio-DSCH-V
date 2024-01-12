@@ -59,7 +59,11 @@
         font-weight: 600;
         transition: 0.7s;
     }
-    
+    header ul li a:before{
+color: #fff;
+text-decoration: underline ; 
+transition: all 1s ease-out;
+}
     .zona1{
         position: relative;
         width: 100%;
@@ -349,7 +353,11 @@
         line-height: normal;
         font-size: 9px;
     }
-    
+    header ul li a:before{
+color: #fff;
+text-decoration: underline ; 
+transition: all 1s ease-out;
+}
     .zona1{
         position: relative;
         width: 100%;
