@@ -1,4 +1,40 @@
+let HT = document.getElementById("zona1");
+let T = document.getElementById("zona2");
+let S = document.getElementById("zona3");
+let J = document.getElementById("zona4");
+let K = document.getElementById("zona5");
 
+function clickInA() {
+	 T.style.display="block";
+	 //Otras Paginas Cerradas
+	 S.style.display="none";
+	 J.style.display="none";
+	 K.style.display="none";
+}
+function clickInB() {
+	  S.style.display="block";
+	  //Otras Paginas Cerradas
+	  T.style.display="none";
+	  J.style.display="none";
+	  K.style.display="none";
+	 
+}
+function clickInC() {
+	 J.style.display="block";	
+	 //Otras Paginas Cerradas
+	 K.style.display="none";
+	 T.style.display="none";
+	 S.style.display="none";
+	
+}
+function clickInD() {
+	 K.style.display="block";
+	  //Otras Paginas Cerradas
+	 S.style.display="none";
+	 T.style.display="none";
+     J.style.display="none";
+	
+}
 //REFRESH
 function refresh() {
 	window.location.reload()

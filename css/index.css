@@ -102,6 +102,7 @@ header ul li a{
     width: 100%;
     height: 100vh;
     background-color: #141414;
+	display: none;
 }
 .zona2 > #siteContent {
  color: #fff;
@@ -117,18 +118,21 @@ header ul li a{
     width: 100%;
     height: 100vh;
     background-color: #070707;
+	display: none;
 }
 .zona4{
     position: relative;
     width: 100%;
     height: 100vh;
     background-color: #0a0909;
+	display: none;
 }
 .zona5{
     position: relative;
     width: 100%;
     height: 100vh;
     background-color: #080707;
+	display: none;
 }
 .zona6{
   position: relative;
