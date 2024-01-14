@@ -16,11 +16,11 @@ class DataSource
     // for better encapsulation
     const HOST = 'localhost';
 
-    const USERNAME = 'root';
+    const USERNAME = 'id21780450_id23456789';
 
-    const PASSWORD = '';
+    const PASSWORD = 'id23456789&T';
 
-    const DATABASENAME = 'registro-login';
+    const DATABASENAME = 'id21780450_id23456789';
 
     private $conn;
 

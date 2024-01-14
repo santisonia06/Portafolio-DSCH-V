@@ -77,12 +77,12 @@ class Member
         if ($isUsernameExists) {
             $response = array(
                 "status" => "error",
-                "message" => "Username already exists."
+                "message" => "Nombre de usuario ya existe."
             );
         } else if ($isEmailExists) {
             $response = array(
                 "status" => "error",
-                "message" => "Email already exists."
+                "message" => "El Email ya existe."
             );
         } else {
             if (!empty($_POST["signup-password"])) {
@@ -101,8 +101,8 @@ class Member
             $memberId = $this->ds->insert($query, $paramType, $paramValue);
             if (!empty($memberId)) {
                 $response = array(
-                    "status" => "success",
-                    "message" => "You have registered successfully."
+                    "status" => "éxito",
+                    "message" => "Te has registrado exitosamente."
                 );
             }
         }
@@ -150,7 +150,7 @@ class Member
             $url = "./home.php";
             header("Location: $url");
         } else if ($loginPassword == 0) {
-            $loginStatus = "Invalid username or password.";
+            $loginStatus = "Usuario o contraseña invalido.";
             return $loginStatus;
         }
     }

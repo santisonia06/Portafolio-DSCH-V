@@ -65,12 +65,12 @@ if (!empty($_POST["login-btn"])) {
 			$("#username-info").html("").hide();
 
 			if (UserName.trim() == "") {
-				$("#username-info").html("required.").css("color", "#ee0000").show();
+				$("#username-info").html("requerido.").css("color", "#ee0000").show();
 				$("#username").addClass("error-field");
 				valid = false;
 			}
 			if (Password.trim() == "") {
-				$("#login-password-info").html("required.").css("color", "#ee0000").show();
+				$("#login-password-info").html("requerido.").css("color", "#ee0000").show();
 				$("#login-password").addClass("error-field");
 				valid = false;
 			}

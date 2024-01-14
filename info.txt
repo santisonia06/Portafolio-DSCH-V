@@ -4,6 +4,25 @@ Para que la aplicación te funcione correctamente, desde phpmyadmin,
 debes crear la base de datos con el nombre registro-login, posteriormente debes acceder 
 al apartado SQL y pegar el código
 
+INFO
+
+Usuario
+
+
+id21780450_id23456789
+
+
+
+
+
+
+CONTRASEÑA :      id23456789&T
+
+
+id23456789
+
+id23456789
+
 ///CODIGO...............................................................................
 
 

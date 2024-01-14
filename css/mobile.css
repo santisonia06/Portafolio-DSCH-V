@@ -59,7 +59,7 @@
         font-weight: 600;
         transition: 0.7s;
     }
-    header ul li a:before{
+    header ul li a:focus{
 color: #fff;
 text-decoration: underline ; 
 transition: all 1s ease-out;
@@ -344,7 +344,7 @@ transition: all 1s ease-out;
     header ul li a{
         position: relative;
         font-family: helvetica;
-        margin: 0 12px;
+        margin: 3px;
         text-decoration: none;
         color: #fff;
         letter-spacing: 2px;
@@ -353,7 +353,7 @@ transition: all 1s ease-out;
         line-height: normal;
         font-size: 9px;
     }
-    header ul li a:before{
+    header ul li a:focus{
 color: #fff;
 text-decoration: underline ; 
 transition: all 1s ease-out;

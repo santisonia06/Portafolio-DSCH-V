@@ -59,7 +59,7 @@ header ul li a{
     font-weight: 600;
     transition: 0.7s;
 }
-header ul li a:before{
+header ul li a:focus{
 color: #fff;
 text-decoration: underline ; 
 transition: all 1s ease-out;
